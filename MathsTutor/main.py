@@ -34,6 +34,7 @@ import os
 import threading
 import math
 import random
+import pygame
 
 class MathsTutorWindow(Gtk.Window):
     def __init__(self):
@@ -43,6 +44,12 @@ class MathsTutorWindow(Gtk.Window):
         # initialize Gstreamer
         Gst.init(None)
         
+        # Initialize pygame mixer
+        pygame.mixer.init()
+
+        # Load and play the background music
+        pygame.mixer.music.load('/usr/share/maths-tutor/sounds/backgroundmusic.ogg')
+        pygame.mixer.music.play(-1)  # -1 will loop the music indefinitely
         #Create a vertical box layout
         vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=6)
 

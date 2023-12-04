@@ -56,6 +56,7 @@ setup(name='MathsTutor',
       ('share/maths-tutor/images/',['images/wrong-anwser-repeted-1.gif']),
       ('share/maths-tutor/images/',['images/wrong-anwser-repeted-2.gif']),
 
+      ('share/maths-tutor/sounds/',['sounds/backgroundmusic.ogg']),
       ('share/maths-tutor/sounds/',['sounds/coin.ogg']),
       ('share/maths-tutor/sounds/',['sounds/excellent-1.ogg']),
       ('share/maths-tutor/sounds/',['sounds/excellent-2.ogg']),

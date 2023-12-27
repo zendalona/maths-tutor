@@ -1,6 +1,8 @@
 #! /usr/bin/python3
 
-from MathsTutor.main import MathsTutorWindow
+from MathsTutor.main import SelectGame
 
 if __name__ == "__main__":
-	MathsTutorWindow()
+	SelectGame()
+
+

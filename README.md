@@ -19,3 +19,17 @@ It’s more than just a game; it’s a valuable tool that can help bridge educat
 ![select-operations_-difficulty-level-etc](https://github.com/Abdullahkhanspn/maths-tutor/assets/140059001/8068d6f5-fff6-4962-9455-8538aea34aee)
 ![finally_-appear-marks-and-time-taken](https://github.com/Abdullahkhanspn/maths-tutor/assets/140059001/d04c23aa-69b5-4baa-bf26-2fa868d8c93f)
 ![appear-corresponding-questions-on-screen](https://github.com/Abdullahkhanspn/maths-tutor/assets/140059001/79120a9e-cfe9-45d1-94e3-5f18a8b74640)
+
+#Features
+
+Accessible Maths Tutor is provided with following features:-
+•Kid-friendly user interface, making it easy and enjoyable for children to navigate and use.
+•Users have the option to select their preferred operator and difficulty level.
+•Provides text-to-Speech synthesizer option for accessibility and convenience.
+•Keyboard shortcuts for repeating questions and adjusting the speech rate, enhancing user control and efficiency during interactions.
+•Users efficiently progress through questions, advancing to higher complexity levels and achieving high scores within a short timeframe.
+•Allowing users to choose between English and Malayalam for their preferred interface language.
+•Provides a option empowering users to upload their own set of questions.
+•Also included reset option, enabling them to reset their settings as needed within the game.
+•At the start of each game, a set of questions corresponding to the selected operator and difficulty level will be presented to the player.
+•At the end of the game, users will see their marks, time taken, and have the option to advance to the next higher level.

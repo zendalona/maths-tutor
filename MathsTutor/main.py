@@ -194,6 +194,8 @@ class SelectGame(Gtk.Window):
 
         hbox2.pack_start(self.show_controls_button, False, False, 0)
 
+        # Connect Escape key press
+        self.connect("key-press-event", self.on_esc_key_press)
 
         # Create about button
         about_button = Gtk.Button(label=_("About"))
@@ -607,6 +609,11 @@ class SelectGame(Gtk.Window):
         self.speech.close()
         self.game_bin.on_quit()
         Gtk.main_quit()
+
+    # Hide the settings if it is visible and ESC pressed
+    def on_esc_key_press(self, widget, event):
+        if event.keyval == Gdk.KEY_Escape and self.vbox_controls.get_visible():
+            self.show_controls(self.show_controls_button)
 
 
 if __name__ == "__main__":

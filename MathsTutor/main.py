@@ -582,7 +582,7 @@ class SelectGame(Gtk.Window):
         Copyright (C) 2022-2023 Greeshna Sarath <greeshnamohan001@gmail.com>
         \nSupervised by Zendalona(2022-2024)""")
         
-        about_dialog.set_website("http://wwww,zendalona.com/maths-tutor")
+        about_dialog.set_website("https://www.zendalona.com/maths-tutor")
         about_dialog.set_authors(["Roopasree A P", "Greeshna Sarath"])
         about_dialog.set_documenters(["Roopasree A P", "Greeshna Sarath"])
         about_dialog.set_artists(["Nalin Sathyan" ,"Dr. Saritha Namboodiri",
